@@ -1,0 +1,32 @@
+//Difference between largest and smallest elements in an array
+
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int n=sc.nextInt();
+int x[] = new int[n];
+    for (int i = 0; i < n; i++)
+ {
+      x[i] = sc.nextInt();
+}
+    UserMainCode.getBigDiff(n,x)
+  }
+}
+class MainCodeUser
+{
+  public static int getBigDiff(int[] b)
+  {
+
+	int max = x[0];
+	int min = x[0];
+	for(int i = 1; i < x.length; i++)
+	{
+		if(x[i] > max)
+			max = x[i];
+		else if(x[i] < min)
+			min = [i];
+	}
+	System.out.println("Diff between largest and smallest: "+(max-min));	
+ }
+}
